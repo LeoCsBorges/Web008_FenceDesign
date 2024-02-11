@@ -10,7 +10,7 @@
     <!-- GRID -->
     <div class="container">
         <!-- MASTHEAD + MENU -->
-        <menu class="masthead grid-item">
+        <menu class="masthead grid-item" id="masthead">
             <div class="title">
                 <div id="h1">FENCE</div>
                 <div id="h2"><em>This is Website Togling</em></div>
@@ -152,9 +152,11 @@
             <div id="social">
                 <h2>SOCIAL PLUGIN</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <a href="https://www.facebook.com/ " target="_blank"><img src="images/facebook.png" alt="facebook"></a>
-                <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.png" alt="instagram"></a>
-                <a href="https://www.flickr.com/" target="_blank"><img src="images/flickr.png" alt="flickr"></a>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/ " target="_blank"><img src="images/facebook.png" alt="facebook"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.png" alt="instagram"></a>
+                    <a href="https://www.flickr.com/" target="_blank"><img src="images/flickr.png" alt="flickr"></a>
+                </div>                
             </div>
             <div id="twitter">
                 <h2>TWITTER</h2>
@@ -199,7 +201,7 @@
 
         <!-- UP PAGE BUTTON -->
         <div id="up-button">
-            <button>&UpArrow;</button>
+            <a href="#masthead"><button>&UpArrow;</button></a>
         </div>
     </div>
 </body>
